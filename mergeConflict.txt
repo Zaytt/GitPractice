@@ -1,5 +1,5 @@
 
 
-This is for a merge conflicts.
+This is for a merge conflict. This is brandt changing mergeConflict on his branch.
 
 Brandt likes apples.
