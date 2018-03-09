@@ -1,4 +1,4 @@
-Food=good;
-Threes=tall;
-Music=ON;
+Food=great;
+Trees=tall;
+Music=LOUD;
 
