@@ -1,4 +1,4 @@
 
 
-This is a second merge conflict file.
-Here are the lines we will change on our own branches.
+//This is a second merge conflict file.
+//Here are the lines we will change on our own branches.
