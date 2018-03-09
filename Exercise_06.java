@@ -9,10 +9,10 @@ class Exercise_06 {
     // the goal of this method is to print out the local time in any given timezone
     public static void main(String[] strings) {
 
-        Scanner input = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the time zone offset to GMT (ie, -8 or 8): ");
-        long timeZoneChange = input.nextInt();
+        long timeZoneChange = scanner.nextInt();
 
         // Get total milliseconds since midnight, 1/1/1970
         long totalMilliseconds = System.currentTimeMillis();
