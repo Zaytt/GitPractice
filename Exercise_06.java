@@ -1,5 +1,5 @@
 package part_03;
-
+//A COMMENT THAT YOU DO NOT HAVE IN YOUR BRANCH
 import com.sun.tools.doclets.formats.html.SourceToHTMLConverter;
 
 import java.util.Scanner;
@@ -46,7 +46,7 @@ class Exercise_06 {
         System.out.print("Time in GMT" + timeZ + " : " );
 
         //AM or PM
-        String ampm = (currentHour/12 > 0) ? "P.M." : "A.M.";
+        String ampm = (currentHour/12 > 0) ? "Whatever man" : "Who knows";
 
         System.out.println(zeroFormat(currentHour%12) + ":" + zeroFormat(currentMinute )+ ":" +
                 zeroFormat(currentSecond) +" " + ampm);
@@ -56,6 +56,7 @@ class Exercise_06 {
     //Just adds a zero before de hour if it is less than 2 digits.
     public static String zeroFormat(int time){
         String newTime = (time < 10 ) ? "0"+time : ""+time;
-        return newTime;
+        newTime = 2*newTime; //THIS IS A NEW LINE
+	return newTime;
     }
 }
